@@ -11425,7 +11425,17 @@ textarea.form-control {
   background: url(../imgs/background1.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
+  background-attachment: scroll; 
 }
+
+
+@media (max-width: 768px) {
+  .header {
+    background-attachment: scroll; 
+    background-position: center top; 
+  }
+}
+
 
 .header .overlay {
   position: absolute;
